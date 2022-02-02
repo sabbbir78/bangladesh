@@ -1,0 +1,220 @@
+*@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600;700&family=Roboto:wght@500&family=Yeseva+One&display=swap');
+
+body{
+    margin: 0;
+}
+.container{
+    width:80% ;
+    margin: auto;
+}
+.hero{
+    display: flex;
+}
+.hero-left{
+    width: 50%;
+}
+.hero-right{
+    width: 50%;
+    text-align: right;
+    
+    
+}
+.one{
+    color:#ffad5a ;
+}
+.hero-left h1{
+    border-left: 3px solid #ff5959;
+    font-size: 50px;
+    padding-left: 12px;
+    font-family: 'Yeseva One', cursive;
+}
+.hero-right img{
+    width:70% ;
+    
+}
+.hero-left a{
+    background: #ff5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+.three{
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+/* mission-section :start */
+.misson-section{
+    display: flex;
+    justify-content: space-between;
+}
+.misson-titel{
+    text-align: center;
+    color: #211f47;
+    font-size: 48px;
+    font-weight: 700;
+}
+.misson-titel span{
+    color: #ffad5a;
+}
+.misson-section .mission img {
+
+    height: 100px;
+    width: 100px;
+}
+.misson-section .mission {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 30px 25px;
+}
+.mission-1{
+    background: #edf5f6;
+}
+.mission-2{
+    background:  #ffeeee;
+}
+.mission-3{
+    background:   #fff4d6;
+}
+
+
+
+
+
+
+
+/* mission-section end*/
+/* work-section start */
+.work-section{
+    display: flex;
+}
+.work-img{
+    width: 40%;
+}
+.work-img img{
+    width: 85%;
+}
+.work-text{
+    width: 60%;
+}
+.work-text h2{
+font-size: 36px;
+
+}
+.work-text h2 p{
+    font-size: 18px;
+}
+.work-section .btn{
+    background: #ff5959;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* end */
+.work-section2{
+    display: flex;
+}
+.work-img2{
+    width: 40%;
+}
+
+.work-text2{
+  width: 60%;
+  
+}
+.work-text2 img{
+width: 85%; 
+height: 400px;
+margin-left: 70px;
+}
+.work-text2 h2{
+font-size: 36px;
+
+}
+.work-text2 h2 p{
+    font-size: 18px;
+    
+}
+.work-section2 .btn{
+
+        background: #ff5959;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+    
+    
+}
+/* end */
+/* four-section  start*/
+.four{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.four span{
+    color: #ffad5a;
+}
+
+
+
+/* four-section  end*/
+
+
+/* 5th :start */
+
+
+.finish-section{
+    display: flex;
+}
+.finish-img{
+    width: 40%;
+}
+.finish-img img{
+    width: 85%;
+}
+.finish-text{
+    width: 60%;
+    margin-top: 130px;
+}
+.finish-text h2{
+font-size: 36px;
+
+}
+.finish-text h2 p{
+    font-size: 18px;
+}
+.finish-text h2 span{
+    color: #ffad5a;
+}
+.finish-section .btn{
+    background: #ff5959;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* end */
+.end{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding-top: 20px
+}
+.end h1 span{
+    color: #ffad5a;
+}
+.end p{
+    padding-bottom: 20px;
+}
+
+
+/* end */
